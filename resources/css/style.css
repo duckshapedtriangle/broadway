@@ -1,12 +1,21 @@
 * {
-margin: 0 auto;
-padding: 0;
-text-align: center;
-}
-h1,h2,h3,p {
-  font-family: Helvetica;
+  margin: 0 auto;
+  padding: 0;
 }
 
+body {background-color: black;
+  text-align: center;
+}
+
+.content {
+  background-color: white;
+  width: 1100px;
+  height: 1100px;
+  border: 40px 10px 10px 10px;
+  border-color: white;
+  border-style: solid;
+  padding: 40px 10px 10px 10px;
+}
 
 .imagehead {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
@@ -25,11 +34,38 @@ h1,h2,h3,p {
   font-family: Helvetica;
   font-size: 18px;
   padding-top: 20px;
+  position: relative;
 }
+
+h3 {font-family: Helvetica;}
+h2 {font-family: Helvetica;}
+p {font-family: Helvetica; font-size: 14px;}
+.process, .furtherinfos {line-height: 2;}
 
 .imageline {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
   background-size: cover;
   background-position: center;
   height: 25px
+}
+.imageline h3 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.furtherinfos {padding-top: 20px;}
+#impressum {
+  background-color: dimgray;
+  color: white;
+  font-family: Helvetica;
+  font-size: 11px;
+  text-align: left;
+}
+#impressum a {
+ color: white;
+ font-family: Helvetica;
+ font-size: 11px;
+ text-align: left;
 }
